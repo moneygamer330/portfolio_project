@@ -9,4 +9,4 @@ class Project(models.Model):
     url = models.URLField(blank=True) #campo opcional -> (blank=True)
 
     def __self__(self):
-        return self.title #TODO Dont show title in database
+        return self.title 
